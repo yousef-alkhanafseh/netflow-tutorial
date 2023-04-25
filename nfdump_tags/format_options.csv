@@ -1,0 +1,11 @@
+format_option,explanation
+raw,Print each file flow record on multiple lines.
+line,Print each flow on one line. Default format.
+long,Print each flow on one line with more details
+biline,Same as line, but for bidir flows
+bilong,Same as long, but for bidir flows
+extended,Print each flow on one line with even more details.
+nsel,Print each NSEL event on one line. Default if NSEL/ASA enabled.
+nel,Print each NAT event on one line. Default if NEL enabled.
+csv,Comma separated output for machine readable processing.
+pipe,Legacy machine readable format: fields '|' separated.

@@ -1,0 +1,132 @@
+tag,explanation
+%nfv,netflow version
+%cnt,flow count
+%tfs,Start Time - first seen
+%ts,Start Time - first seen
+%tsr,Start Time - first seen
+%te,End Time - last seen
+%ter,End Time - first seen
+%tr,Received Time
+%trr,Received Time
+%td,Duration
+%tds,Duration always in seconds
+%exp,Exporter SysID
+%pr,Protocol
+%sa,Source Address
+%da,Destination Address
+%gsa,Source Address
+%gda,Destination Address
+%sn,Source Address applied source netmask
+%dn,Destination Address applied source netmask
+%nh,Next-hop IP Address
+%nhb,BGP Next-hop IP Address
+%ra,Router IP Address
+%sap,Source Address:Port
+%dap,Destination Address:Port
+%gsap,Source Address(geo):Port
+%gdap,Destination Address(geo):Port
+%sp,Source Port
+%dp,Destination Port
+%it,ICMP type
+%ic,ICMP code
+%sas,Source AS
+%das,Destination AS
+%nas,Next AS
+%pas,Previous AS
+%in,Input Interface num
+%inam,Input Interface name
+%out,Output Interface num
+%onam,Output Interface name
+%pkt,Packets - default input - compat
+%ipkt,In Packets
+%opkt,Out Packets
+%byt,Bytes - default input - compat
+%ibyt,In Bytes
+%obyt,In Bytes
+%fl,Flows
+%flg,TCP Flags
+%tos,Tos - compat
+%stos,Tos - Src tos
+%dtos,Tos - Dst tos
+%dir,Direction: ingress,egress
+%smk,Src mask
+%dmk,Dst mask
+%fwd,Forwarding Status
+%bfd,BiFlow Direction
+%end,Flow End Reason
+%svln,Src Vlan
+%dvln,Dst Vlan
+%ismc,Input Src Mac Addr
+%odmc,Output Dst Mac Addr
+%idmc,Input Dst Mac Addr
+%osmc,Output Src Mac Addr
+%mpls1,MPLS Label 1
+%mpls2,MPLS Label 2
+%mpls3,MPLS Label 3
+%mpls4,MPLS Label 4
+%mpls5,MPLS Label 5
+%mpls6,MPLS Label 6
+%mpls7,MPLS Label 7
+%mpls8,MPLS Label 8
+%mpls9,MPLS Label 9
+%mpls10,MPLS Label 10
+%mpls,MPLS labels 1-10
+%bps,bps - bits per second
+%pps,pps - packets per second
+%bpp,bpp - Bytes per package
+%eng,Engine Type/ID
+%lbl,Flow Label
+%sc,src IP 2 letter country code
+%dc,dst IP 2 letter country code
+%sloc,src IP geo location info
+%dloc,dst IP geo location info
+%sasn,src IP AS organistaion string
+%dasn,dst IP AS organisation string
+%n,\n
+%ipl,in payload
+%opl,out payload
+%nbid,nbar ID
+%ja3,ja3
+%sni,TLS sni Name
+%nbnam,nbar Name
+%odid,observation domainID
+%opid,observation pointID
+%vrf,ingress vrf ID - compatible
+%ivrf,ingress vrf ID
+%ivrfnam,ingress vrf name
+%evrf,egress vrf ID
+%evrfnam,egress vrf name
+%pfifn,pflog ifname
+%pfact,pflog action
+%pfrea,pflog reason
+%pfdir,pflog direction
+%pfrule,pflog rule
+%nfc,NSEL connection ID
+%tevt,NSEL Flow start time
+%evt,NSEL event
+%xevt,NSEL xevent
+%sgt,NSEL xevent
+%msec,NSEL event time in msec
+%iacl,NSEL ingress ACL
+%eacl,NSEL egress ACL
+%xsa,NSEL XLATE src IP
+%xda,NSEL XLATE dst IP
+%xsp,NSEL XLATE src port
+%xdp,NSEL SLATE dst port
+%xsap,Xlate Source Address:Port
+%xdap,Xlate Destination Address:Port
+%uname,NSEL user name
+%nevt,NAT event
+%nsa,NAT XLATE src IP
+%nda,NAT XLATE dst IP
+%nsp,NAT XLATE src port
+%ndp,NAT SLATE dst port
+%nsap,NAT Xlate Source Address:Port
+%ndap,NAT Xlate Destination Address:Port
+%pbstart,Port block start
+%pbend,Port block end
+%pbstep,Port block step
+%pbsize,Port block size
+%cl,client latency
+%sl,server latency
+%al,app latency

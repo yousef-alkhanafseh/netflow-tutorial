@@ -1,0 +1,14 @@
+filter_option,explanation
+Date flow start,Start time flow first seen. ISO 8601 format including miliseconds.
+Duration,Duration of the flow in seconds and miliseconds.  If  flows  are  aggregated, duration is the time span over the entire periode of time from first seen to last seen.
+Proto,Protocol used in the connection.
+Src IP Addr:Port, Source IP address and source port.
+Dst  IP  Addr:Port, Destination IP address and destination port.  In case of ICMP, port is decodes as type.code.
+Flags, TCP flags ORed of the connection.
+Tos, Type of service.
+Packets, The number of packets in this flow. If flows are aggregated, the packets are summed up.
+Bytes,  The number of bytes in this flow. If flows are aggregated, the bytes are summed up.
+pps, The calculated packets per second: number of packets /  duration. If  flows  are aggregated this results in the average pps during this periode of time.
+bps,  The  calculated  bits  per  second: 8 * number of bytes / duration. If flows are aggregated this results in the average bps during this periode of time.
+Bpp, The calculated bytes per packet: number of bytes / number of packets. If flows are aggregated this results in the average bpp during this periode of time.
+Flows, Number of flows. If flows are listed only, this number is alwasy 1. If flows are aggregated, this shows the number of aggregated flows to one record.

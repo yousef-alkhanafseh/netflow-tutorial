@@ -1,0 +1,20 @@
+order_option,explanation
+flows,Sort according to the number of flows
+packets,Sort according to (in)packets
+ipkg,Same as packets
+opkg,Sort according to output packets
+bytes,Sort according to (in)bytes
+ibyte,Same as bytes
+obyte,Sort according to output bytes
+pps,Sort according to (in)packets per second
+ipps,Same as ipps
+opps,Sort according to out packets per second
+bps,Sort according to (in)bytes per second
+ibps,Same as bps
+obps,Sort according to output bytes per second
+bpp,Sort according to (in)bytes per packet
+ibpp,Same as bpp
+obpp,Sort according to output packets
+tstart,Sort according to start time of flow - former -m
+tend,Sort according to end time of flows
+duration,Sort according to duration of flows

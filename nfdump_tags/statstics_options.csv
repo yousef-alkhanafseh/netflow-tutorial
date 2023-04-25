@@ -1,0 +1,68 @@
+statistic_option,explanation
+record,Statistic about arregated netflow records.
+srcip,Statistic about source IP addresses
+dstip,Statistic about destination IP addresses
+ip,Statistic about any (source or destination) IP addresses
+nhip,Statistic about next hop IP addresses
+nhbip,Statistic about BGP next hop IP addresses
+router,Statistic about exporting router IP address
+srcport,Statistic about source ports
+dstport,Statistic about destination ports
+port,Statistic about any (source or destination) ports
+tos,Statistic about type of service - default src
+srctos,Statistic about src type of service
+dsttos,Statistic about dst type of service
+dir,Statistic about flow directions ingress/egress
+srcas,Statistic about source AS numbers
+dstas,Statistic about destination AS numbers
+as,Statistic about any (source or destination) AS numbers
+inif,Statistic about input interface
+outif,Statistic about output interface
+if,Statistic about any interface
+srcmask,Statistic about src mask
+dstmask,Statistic about dst mask
+srcvlan,Statistic about src vlan label
+dstvlan,Statistic about dst vlan label
+vlan,Statistic about any vlan label
+insrcmac,Statistic about input src MAC address
+outdstmac,Statistic about output dst MAC address
+indstmac,Statistic about input dst MAC address
+outsrcmac,Statistic about output src MAC address
+srcmac,Statistic about any src MAC address
+dstmac,Statistic about any dst MAC address
+inmac,Statistic about any input MAC address
+outmac,Statistic about any output MAC address
+mask,Statistic about any mask
+proto,Statistic about IP protocols
+mpls1,Statistic about MPLS label 1
+mpls2,Statistic about MPLS label 2
+mpls3,Statistic about MPLS label 3
+mpls4,Statistic about MPLS label 4
+mpls5,Statistic about MPLS label 5
+mpls6,Statistic about MPLS label 6
+mpls7,Statistic about MPLS label 7
+mpls8,Statistic about MPLS label 8
+mpls9,Statistic about MPLS label 9
+mpls10,Statistic about MPLS label 10
+sysid,Internal SysID of export
+NSEL/ASA stats
+event,NSEL/ASA event
+xevent,NSEL/ASA extended event
+xsrcip,NSEL/ASA translated src IP address
+xsrcport,NSEL/ASA translated src port
+xdstip,NSEL/ASA translated dst IP address
+xdstport,NSEL/ASA translated dst port
+iacl,,NSEL/ASA ingress ACL
+iace,,NSEL/ASA ingress ACE
+ixace,NSEL/ASA ingress xACE
+eacl,,NSEL/ASA egress ACL
+eace,,NSEL/ASA egress ACE
+exace,NSEL/ASA egress xA
+NAT,stats
+nevent,NAT event
+vrf/ivrf,NAT ingress vrf
+evrf,NAT egress vrf
+nsrcip,NAT src IP address
+nsrcport,NAT src port
+ndstip,NAT dst IP address
+ndstport,NAT dst po
